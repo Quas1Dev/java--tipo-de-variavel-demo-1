@@ -1,0 +1,40 @@
+# Ignore the build directory
+build/
+
+# Ignore the nbproject directory and its contents
+nbproject/
+
+# Ignore specific files in nbproject/private (assuming we want to ignore all its contents)
+nbproject/private/
+
+# If there are specific file types you want to ignore in the src directory, you can specify them
+# For example, ignore all compiled Java files (assuming your project involves Java)
+# src/**/*.class
+
+# Ignore IDE specific files (common examples)
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore other common build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore system files
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.pid
+*.seed
+*.backup
+*.swp
+*.swo
